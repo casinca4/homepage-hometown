@@ -1,0 +1,91 @@
+body {
+  background-color: antiquewhite;
+  font-family: 'Radio Canada', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  height: 100px;
+  margin: 1.5em;
+  transition: 1s;
+  width: 100px;
+}
+
+.hero-section {
+  align-items: center;
+  background-image: url("images/berlin-von-oben2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.hero-title {
+  background-color: #404E7C;
+  border-radius: 6px;
+  margin: 0 auto;
+  opacity: .6;
+  padding: .5em;
+  width: 200px;
+}
+
+.hero-subtitle {
+  background-color: rgb(113, 154, 255);
+  border-radius: 6px;
+  opacity: .8;
+  padding: .5em;
+}
+
+.hero-text {
+  color: white;
+  margin-top: 3em;
+  text-shadow: 0 0 2px black;
+}
+
+.activity img:hover {
+  transform: scale(1.5);
+}
+
+.activities-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+
+.activity {
+  margin-bottom: 1.5em;
+  padding: 0 2em;
+}
+
+.guide-section {
+  align-items: center;
+  background-color: aquamarine;
+  border-radius: 10px;
+  display: flex;
+  min-height: 200px;
+  justify-content: center;
+  margin: 0 auto 3em;
+  padding: 1em 2em;
+  width: 400px;
+}
+
+.guide-avatar {
+  border-radius: 5px;
+  box-shadow: 3px 3px 20px rgb(24, 125, 188);
+  height: 200px;
+  width: 150px;
+}
+
+.guide-section p {
+  font-size: 1.1rem;
+}
+
+.guide-text {
+  margin: 1.2em;
+}
