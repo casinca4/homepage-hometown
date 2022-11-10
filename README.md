@@ -1,5 +1,5 @@
 # homepage-hometown
 
-Solo project as part of the Frontend Developer Career Path from Scrimba.
+One of the first projects during the course at Digital Career Institute.
 
 HTML, CSS
